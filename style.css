@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  place-items: center;
+  display: flex;
+  font-size: 15px;
+}
+main {
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  margin: auto;
+  width: 40%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+}
+main div{
+border-radius: 5px;
+height: 35vh;
+text-align: justify;
+width: 60;
+}
+
+.column1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 25px;
+  height: 30vh;
+  width: 25%;
+  
+}
+
+.column1 h2{
+padding: 50px;
+
+}
+
+.column1 button{
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    border-radius: 15px;
+    width: 55%;
+    height: 35px;
+    padding: 5px;
+    margin: 35px;
+    font-size: 12px;
+    border-style: none;
+    
+    
+}
+
+
+.column2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 25px;
+  height: 30vh;
+  width: 25%;
+}
+.column2 h2{
+padding: 50px;
+}
+.column2 button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 15px;
+    width: 55%;
+    height: 35px;
+    padding: 5px;
+    margin: 35px;
+    font-size: 12px;
+    border-style: none;
+}
+
+
+.column3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 25px;
+  height: 30vh;
+  width: 25%;
+}
+.column3 h2{
+padding: 50px;
+}
+.column3 button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 15px;
+    width: 55%;
+    height: 35px;
+    padding: 5px;
+    margin: 35px;
+    font-size: 12px;
+    border-style: none;
+}

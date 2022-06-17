@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  background-color: rgb(194, 200, 206);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "o o o y y"
+    "o o o y y"
+    "g g b b b"
+    "g g d d d";
+    
+  gap: 15px;
+  width: 50%;
+  margin: auto;
+  height: 600px;
+  
+}
+main div{
+    padding: 3em;
+    text-align: center;
+   
+}
+
+.orange {
+  background-color: rgb(202, 108, 19);
+  grid-area: o;
+  
+}
+
+.yellow {
+  background-color: rgb(209, 150, 24);
+  grid-area: y;
+}
+
+.green {
+  background-color: rgb(7, 168, 7);
+  grid-area: g;
+}
+
+.blue {
+  background-color: rgb(59, 145, 243);
+  grid-area: b;
+}
+
+.sky-blue {
+  background-color: rgb(59, 145, 243);
+  grid-area: d;
+}
